@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 数据文件（体积太大不上传）
+*.tif
+*.tfw
+*.ovr
+*.aux.xml
+*.enp
+*.zip
+*.xlsx
+*.pickle
+*.mat
+
+# 模型文件
+model_*
+*.pth
+*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
